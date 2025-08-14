@@ -458,14 +458,10 @@ python validate_code.py && python test_system.py && python integration_test.py
 python test_raspberry_pi.py
 ```
 
-## 📄 License
-
-This project uses Google's YAMNet model, which is available under the Apache 2.0 License.
-
 ## 🆘 Support
 
 ### Getting Help
-1. **Check documentation**: Start with `QUICKSTART.md`
+1. **Check documentation**
 2. **Run diagnostics**: Use `python setup.py` for automated troubleshooting
 3. **Test components**: Use `python test_system.py` to identify issues
 4. **Check compatibility**: Use `python test_raspberry_pi.py` for Raspberry Pi
@@ -481,8 +477,4 @@ This project uses Google's YAMNet model, which is available under the Apache 2.0
 - **Accuracy**: 86.7% overall, 100% precision, 77.8% recall (tested on 15 audio samples)
   - *100% precision means zero false alarms - critical for emergency detection*
 
-**System Status: Production Ready** ✅
 
----
-
-*Built with ❤️ for emergency sound detection and safety monitoring*
