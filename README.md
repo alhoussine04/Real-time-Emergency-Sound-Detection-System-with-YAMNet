@@ -426,9 +426,7 @@ The system includes comprehensive testing for:
 
 ### Complete Documentation Set
 - **`README.md`**: Main documentation (this file)
-- **`QUICKSTART.md`**: 5-minute setup guide
 - **`RASPBERRY_PI_GUIDE.md`**: Complete Raspberry Pi setup
-- **`RASPBERRY_PI_COMPATIBILITY.md`**: Detailed compatibility report
 
 
 ### Configuration Files
