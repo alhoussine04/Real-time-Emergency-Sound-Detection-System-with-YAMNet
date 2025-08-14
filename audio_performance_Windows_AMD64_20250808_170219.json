@@ -1,0 +1,188 @@
+{
+  "timestamp": "2025-08-08T17:00:47.330301",
+  "system_info": {
+    "platform": "Windows",
+    "platform_release": "10",
+    "platform_version": "10.0.19045",
+    "architecture": "AMD64",
+    "processor": "Intel64 Family 6 Model 142 Stepping 9, GenuineIntel",
+    "cpu_count": 4,
+    "cpu_count_logical": 4,
+    "memory_total": 17024561152,
+    "python_version": "3.12.0"
+  },
+  "platform_name": "Windows_AMD64",
+  "config_file": "config.env",
+  "yamnet": {
+    "init_time": 0.06203961372375488,
+    "scenarios": {
+      "Silence": {
+        "avg_time": 0.005898404121398926,
+        "min_time": 0.0039637088775634766,
+        "max_time": 0.00903940200805664,
+        "std_time": 0.0017589895817161812,
+        "fps": 169.53738323423485,
+        "predictions": [
+          [
+            "Silence",
+            0.80078125
+          ],
+          [
+            "Silence",
+            0.80078125
+          ],
+          [
+            "Silence",
+            0.80078125
+          ]
+        ]
+      },
+      "White Noise": {
+        "avg_time": 0.008249509334564208,
+        "min_time": 0.003994941711425781,
+        "max_time": 0.021001577377319336,
+        "std_time": 0.004344787356651261,
+        "fps": 121.2193306831171,
+        "predictions": [
+          [
+            "Static",
+            0.5859375
+          ],
+          [
+            "Static",
+            0.5859375
+          ],
+          [
+            "Static",
+            0.5859375
+          ]
+        ]
+      },
+      "Sine Wave 440Hz": {
+        "avg_time": 0.016375064849853516,
+        "min_time": 0.004998445510864258,
+        "max_time": 0.12199926376342773,
+        "std_time": 0.027519217532076163,
+        "fps": 61.06846044087243,
+        "predictions": [
+          [
+            "Sine wave",
+            0.99609375
+          ],
+          [
+            "Sine wave",
+            0.99609375
+          ],
+          [
+            "Sine wave",
+            0.99609375
+          ]
+        ]
+      },
+      "Chirp": {
+        "avg_time": 0.00869908332824707,
+        "min_time": 0.003997087478637695,
+        "max_time": 0.015002965927124023,
+        "std_time": 0.0030193330564983823,
+        "fps": 114.954640881858,
+        "predictions": [
+          [
+            "Synthesizer",
+            0.33203125
+          ],
+          [
+            "Synthesizer",
+            0.33203125
+          ],
+          [
+            "Synthesizer",
+            0.33203125
+          ]
+        ]
+      }
+    }
+  },
+  "audio_capture": {
+    "duration": 13.918310642242432,
+    "chunks_received": 218,
+    "expected_chunks": 217,
+    "chunk_rate": 15.662820409997488,
+    "samples_per_second": 244339.9983959608,
+    "avg_audio_level": "0.0008994126",
+    "max_audio_level": "0.006725421",
+    "min_audio_level": "0.00081780483",
+    "dropout_rate": 0
+  },
+  "resources": {
+    "duration": 20,
+    "cpu_avg": 26.0,
+    "cpu_max": 35.6,
+    "cpu_min": 19.4,
+    "memory_avg": 35.08500000000001,
+    "memory_max": 35.4,
+    "memory_min": 35.0,
+    "samples": 20
+  },
+  "integrated": {
+    "duration": 31.108235120773315,
+    "audio_chunks": 452,
+    "classifications": 452,
+    "classification_rate": 14.529914610879532,
+    "avg_classification_time": 0.007236152096132262,
+    "max_classification_time": 0.019011974334716797,
+    "min_classification_time": 0.003945112228393555,
+    "detections_count": 452,
+    "detections": [
+      {
+        "class": "Silence",
+        "confidence": 0.66796875,
+        "timestamp": 1.1649689674377441
+      },
+      {
+        "class": "Silence",
+        "confidence": 0.5859375,
+        "timestamp": 1.222923994064331
+      },
+      {
+        "class": "Silence",
+        "confidence": 0.5859375,
+        "timestamp": 1.292924165725708
+      },
+      {
+        "class": "Silence",
+        "confidence": 0.66796875,
+        "timestamp": 1.3529670238494873
+      },
+      {
+        "class": "Silence",
+        "confidence": 0.5859375,
+        "timestamp": 1.4229240417480469
+      },
+      {
+        "class": "Silence",
+        "confidence": 0.5859375,
+        "timestamp": 1.4839279651641846
+      },
+      {
+        "class": "Silence",
+        "confidence": 0.66796875,
+        "timestamp": 1.541923999786377
+      },
+      {
+        "class": "Silence",
+        "confidence": 0.5859375,
+        "timestamp": 1.6139307022094727
+      },
+      {
+        "class": "Silence",
+        "confidence": 0.5859375,
+        "timestamp": 1.6729679107666016
+      },
+      {
+        "class": "Silence",
+        "confidence": 0.5,
+        "timestamp": 1.7539799213409424
+      }
+    ]
+  }
+}

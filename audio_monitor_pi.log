@@ -1,0 +1,143 @@
+2025-08-05 16:38:05,312 - src.audio_monitor - INFO - Configuration loaded successfully
+2025-08-05 16:38:05,312 - src.audio_monitor - INFO - Target sounds: ['Baby cry, infant cry', 'Glass', 'Fire alarm', 'Smoke detector, smoke alarm']
+2025-08-05 16:38:05,313 - src.audio_monitor - INFO - Initializing YAMNet classifier...
+2025-08-05 16:38:05,318 - src.yamnet_classifier - INFO - Using TensorFlow Lite
+2025-08-05 16:38:05,328 - src.yamnet_classifier - INFO - YAMNet model loaded successfully from 1.tflite
+2025-08-05 16:38:05,339 - src.yamnet_classifier - INFO - Loaded 521 class labels from model file
+2025-08-05 16:38:05,340 - src.audio_monitor - INFO - Initializing Telegram notifier...
+2025-08-05 16:38:06,703 - src.telegram_notifier - INFO - Telegram bot initialized successfully
+2025-08-05 16:38:07,053 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7886580027:AAHXCAzt88kHJtQmJ3SFuG38gJhrEORks3U/getMe "HTTP/1.1 200 OK"
+2025-08-05 16:38:07,054 - src.telegram_notifier - INFO - Telegram bot connection test successful: @RASPBBERRY_bot
+2025-08-05 16:38:07,055 - src.audio_monitor - INFO - Initializing audio capture...
+2025-08-05 16:38:07,227 - src.audio_capture - INFO - Available audio devices:
+2025-08-05 16:38:07,228 - src.audio_capture - INFO -   Device 0: Microsoft Sound Mapper - Input (Channels: 2, Sample Rate: 44100.0)
+2025-08-05 16:38:07,228 - src.audio_capture - INFO -   Device 1: Microphone (USB PnP Sound Devic (Channels: 1, Sample Rate: 44100.0)
+2025-08-05 16:38:07,229 - src.audio_capture - INFO -   Device 2: Microphone (2- High Definition  (Channels: 2, Sample Rate: 44100.0)
+2025-08-05 16:38:07,229 - src.audio_capture - INFO -   Device 6: Primary Sound Capture Driver (Channels: 2, Sample Rate: 44100.0)
+2025-08-05 16:38:07,231 - src.audio_capture - INFO -   Device 7: Microphone (USB PnP Sound Device) (Channels: 1, Sample Rate: 44100.0)
+2025-08-05 16:38:07,232 - src.audio_capture - INFO -   Device 8: Microphone (2- High Definition Audio Device) (Channels: 2, Sample Rate: 44100.0)
+2025-08-05 16:38:07,232 - src.audio_capture - INFO -   Device 14: Microphone (2- High Definition Audio Device) (Channels: 2, Sample Rate: 44100.0)
+2025-08-05 16:38:07,234 - src.audio_capture - INFO -   Device 15: Microphone (USB PnP Sound Device) (Channels: 1, Sample Rate: 48000.0)
+2025-08-05 16:38:07,234 - src.audio_capture - INFO -   Device 17: Microphone (HD Audio Microphone) (Channels: 2, Sample Rate: 44100.0)
+2025-08-05 16:38:07,235 - src.audio_capture - INFO -   Device 19: Microphone (USB PnP Sound Device) (Channels: 1, Sample Rate: 44100.0)
+2025-08-05 16:38:07,236 - src.audio_capture - INFO -   Device 21: Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free AG Audio%0
+;(Redmi Buds 3)) (Channels: 1, Sample Rate: 8000.0)
+2025-08-05 16:38:07,237 - src.audio_capture - INFO -   Device 22: Input () (Channels: 8, Sample Rate: 44100.0)
+2025-08-05 16:38:07,237 - src.audio_capture - INFO - Using default input device: Microphone (USB PnP Sound Devic
+2025-08-05 16:38:07,238 - src.audio_monitor - INFO - Initializing sound detector...
+2025-08-05 16:38:07,239 - src.sound_detector - INFO - Target sound 'Baby cry, infant cry' found (exact match)
+2025-08-05 16:38:07,240 - src.sound_detector - INFO - Target sound 'Glass' found (exact match)
+2025-08-05 16:38:07,240 - src.sound_detector - INFO - Target sound 'Fire alarm' found (exact match)
+2025-08-05 16:38:07,241 - src.sound_detector - INFO - Target sound 'Smoke detector, smoke alarm' found (exact match)
+2025-08-05 16:38:07,242 - src.sound_detector - INFO - Monitoring 4 target sound types
+2025-08-05 16:38:07,244 - src.audio_monitor - INFO - All components initialized successfully
+2025-08-05 16:38:33,997 - src.audio_monitor - INFO - Configuration loaded successfully
+2025-08-05 16:38:33,998 - src.audio_monitor - INFO - Target sounds: ['Baby cry, infant cry', 'Glass', 'Fire alarm', 'Smoke detector, smoke alarm']
+2025-08-05 16:38:33,999 - src.audio_monitor - INFO - Starting audio monitoring system...
+2025-08-05 16:38:34,000 - src.audio_monitor - INFO - Initializing YAMNet classifier...
+2025-08-05 16:38:34,006 - src.yamnet_classifier - INFO - Using TensorFlow Lite
+2025-08-05 16:38:34,021 - src.yamnet_classifier - INFO - YAMNet model loaded successfully from 1.tflite
+2025-08-05 16:38:34,025 - src.yamnet_classifier - INFO - Loaded 521 class labels from model file
+2025-08-05 16:38:34,025 - src.audio_monitor - INFO - Initializing Telegram notifier...
+2025-08-05 16:38:35,303 - src.telegram_notifier - INFO - Telegram bot initialized successfully
+2025-08-05 16:38:35,641 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7886580027:AAHXCAzt88kHJtQmJ3SFuG38gJhrEORks3U/getMe "HTTP/1.1 200 OK"
+2025-08-05 16:38:35,647 - src.telegram_notifier - INFO - Telegram bot connection test successful: @RASPBBERRY_bot
+2025-08-05 16:38:35,648 - src.audio_monitor - INFO - Initializing audio capture...
+2025-08-05 16:38:35,821 - src.audio_capture - INFO - Available audio devices:
+2025-08-05 16:38:35,821 - src.audio_capture - INFO -   Device 0: Microsoft Sound Mapper - Input (Channels: 2, Sample Rate: 44100.0)
+2025-08-05 16:38:35,822 - src.audio_capture - INFO -   Device 1: Microphone (USB PnP Sound Devic (Channels: 1, Sample Rate: 44100.0)
+2025-08-05 16:38:35,822 - src.audio_capture - INFO -   Device 2: Microphone (2- High Definition  (Channels: 2, Sample Rate: 44100.0)
+2025-08-05 16:38:35,823 - src.audio_capture - INFO -   Device 6: Primary Sound Capture Driver (Channels: 2, Sample Rate: 44100.0)
+2025-08-05 16:38:35,823 - src.audio_capture - INFO -   Device 7: Microphone (USB PnP Sound Device) (Channels: 1, Sample Rate: 44100.0)
+2025-08-05 16:38:35,824 - src.audio_capture - INFO -   Device 8: Microphone (2- High Definition Audio Device) (Channels: 2, Sample Rate: 44100.0)
+2025-08-05 16:38:35,824 - src.audio_capture - INFO -   Device 14: Microphone (2- High Definition Audio Device) (Channels: 2, Sample Rate: 44100.0)
+2025-08-05 16:38:35,825 - src.audio_capture - INFO -   Device 15: Microphone (USB PnP Sound Device) (Channels: 1, Sample Rate: 48000.0)
+2025-08-05 16:38:35,825 - src.audio_capture - INFO -   Device 17: Microphone (HD Audio Microphone) (Channels: 2, Sample Rate: 44100.0)
+2025-08-05 16:38:35,826 - src.audio_capture - INFO -   Device 19: Microphone (USB PnP Sound Device) (Channels: 1, Sample Rate: 44100.0)
+2025-08-05 16:38:35,826 - src.audio_capture - INFO -   Device 21: Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free AG Audio%0
+;(Redmi Buds 3)) (Channels: 1, Sample Rate: 8000.0)
+2025-08-05 16:38:35,827 - src.audio_capture - INFO -   Device 22: Input () (Channels: 8, Sample Rate: 44100.0)
+2025-08-05 16:38:35,828 - src.audio_capture - INFO - Using default input device: Microphone (USB PnP Sound Devic
+2025-08-05 16:38:35,829 - src.audio_monitor - INFO - Initializing sound detector...
+2025-08-05 16:38:35,830 - src.sound_detector - INFO - Target sound 'Baby cry, infant cry' found (exact match)
+2025-08-05 16:38:35,830 - src.sound_detector - INFO - Target sound 'Glass' found (exact match)
+2025-08-05 16:38:35,831 - src.sound_detector - INFO - Target sound 'Fire alarm' found (exact match)
+2025-08-05 16:38:35,832 - src.sound_detector - INFO - Target sound 'Smoke detector, smoke alarm' found (exact match)
+2025-08-05 16:38:35,832 - src.sound_detector - INFO - Monitoring 4 target sound types
+2025-08-05 16:38:35,833 - src.audio_monitor - INFO - All components initialized successfully
+2025-08-05 16:38:35,836 - src.telegram_notifier - ERROR - Telegram error: Unknown error in HTTP implementation: RuntimeError('Event loop is closed')
+2025-08-05 16:38:35,886 - src.audio_capture - INFO - Audio capture started
+2025-08-05 16:38:35,887 - src.audio_monitor - INFO - *** Audio monitoring system started successfully! ***
+2025-08-05 16:38:35,888 - src.audio_monitor - INFO - Press Ctrl+C to stop...
+2025-08-05 16:39:23,860 - src.audio_monitor - INFO - Configuration loaded successfully
+2025-08-05 16:39:23,861 - src.audio_monitor - INFO - Target sounds: ['Baby cry, infant cry', 'Glass', 'Fire alarm', 'Smoke detector, smoke alarm']
+2025-08-05 16:39:23,861 - src.audio_monitor - INFO - Starting audio monitoring system...
+2025-08-05 16:39:23,862 - src.audio_monitor - INFO - Initializing YAMNet classifier...
+2025-08-05 16:39:23,866 - src.yamnet_classifier - INFO - Using TensorFlow Lite
+2025-08-05 16:39:23,885 - src.yamnet_classifier - INFO - YAMNet model loaded successfully from 1.tflite
+2025-08-05 16:39:23,894 - src.yamnet_classifier - INFO - Loaded 521 class labels from model file
+2025-08-05 16:39:23,896 - src.audio_monitor - INFO - Initializing Telegram notifier...
+2025-08-05 16:39:25,348 - src.telegram_notifier - INFO - Telegram bot initialized successfully
+2025-08-05 16:39:25,693 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7886580027:AAHXCAzt88kHJtQmJ3SFuG38gJhrEORks3U/getMe "HTTP/1.1 200 OK"
+2025-08-05 16:39:25,698 - src.telegram_notifier - INFO - Telegram bot connection test successful: @RASPBBERRY_bot
+2025-08-05 16:39:25,699 - src.audio_monitor - INFO - Initializing audio capture...
+2025-08-05 16:39:25,925 - src.audio_capture - INFO - Available audio devices:
+2025-08-05 16:39:25,926 - src.audio_capture - INFO -   Device 0: Microsoft Sound Mapper - Input (Channels: 2, Sample Rate: 44100.0)
+2025-08-05 16:39:25,926 - src.audio_capture - INFO -   Device 1: Microphone (USB PnP Sound Devic (Channels: 1, Sample Rate: 44100.0)
+2025-08-05 16:39:25,927 - src.audio_capture - INFO -   Device 2: Microphone (2- High Definition  (Channels: 2, Sample Rate: 44100.0)
+2025-08-05 16:39:25,928 - src.audio_capture - INFO -   Device 6: Primary Sound Capture Driver (Channels: 2, Sample Rate: 44100.0)
+2025-08-05 16:39:25,929 - src.audio_capture - INFO -   Device 7: Microphone (USB PnP Sound Device) (Channels: 1, Sample Rate: 44100.0)
+2025-08-05 16:39:25,929 - src.audio_capture - INFO -   Device 8: Microphone (2- High Definition Audio Device) (Channels: 2, Sample Rate: 44100.0)
+2025-08-05 16:39:25,932 - src.audio_capture - INFO -   Device 14: Microphone (2- High Definition Audio Device) (Channels: 2, Sample Rate: 44100.0)
+2025-08-05 16:39:25,939 - src.audio_capture - INFO -   Device 15: Microphone (USB PnP Sound Device) (Channels: 1, Sample Rate: 48000.0)
+2025-08-05 16:39:25,940 - src.audio_capture - INFO -   Device 17: Microphone (HD Audio Microphone) (Channels: 2, Sample Rate: 44100.0)
+2025-08-05 16:39:25,947 - src.audio_capture - INFO -   Device 19: Microphone (USB PnP Sound Device) (Channels: 1, Sample Rate: 44100.0)
+2025-08-05 16:39:25,949 - src.audio_capture - INFO -   Device 21: Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free AG Audio%0
+;(Redmi Buds 3)) (Channels: 1, Sample Rate: 8000.0)
+2025-08-05 16:39:25,950 - src.audio_capture - INFO -   Device 22: Input () (Channels: 8, Sample Rate: 44100.0)
+2025-08-05 16:39:25,955 - src.audio_capture - INFO - Using default input device: Microphone (USB PnP Sound Devic
+2025-08-05 16:39:25,956 - src.audio_monitor - INFO - Initializing sound detector...
+2025-08-05 16:39:25,958 - src.sound_detector - INFO - Target sound 'Baby cry, infant cry' found (exact match)
+2025-08-05 16:39:25,964 - src.sound_detector - INFO - Target sound 'Glass' found (exact match)
+2025-08-05 16:39:25,965 - src.sound_detector - INFO - Target sound 'Fire alarm' found (exact match)
+2025-08-05 16:39:25,966 - src.sound_detector - INFO - Target sound 'Smoke detector, smoke alarm' found (exact match)
+2025-08-05 16:39:25,974 - src.sound_detector - INFO - Monitoring 4 target sound types
+2025-08-05 16:39:25,976 - src.audio_monitor - INFO - All components initialized successfully
+2025-08-05 16:39:25,981 - src.telegram_notifier - ERROR - Telegram error: Unknown error in HTTP implementation: RuntimeError('Event loop is closed')
+2025-08-05 16:39:26,016 - src.audio_capture - INFO - Audio capture started
+2025-08-05 16:39:26,019 - src.audio_monitor - INFO - *** Audio monitoring system started successfully! ***
+2025-08-05 16:39:26,021 - src.audio_monitor - INFO - Press Ctrl+C to stop...
+2025-08-05 16:39:36,006 - src.audio_monitor - INFO - STATS - Uptime: 0.0h, Processed: 461, Detections: 0, Rate: 0.0000
+2025-08-05 16:40:26,084 - src.audio_monitor - INFO - STATS - Uptime: 0.0h, Processed: 461, Detections: 0, Rate: 0.0000
+2025-08-05 16:40:29,604 - src.audio_monitor - INFO - Received signal 2, shutting down...
+2025-08-05 16:40:29,605 - src.audio_monitor - INFO - Stopping audio monitoring system...
+2025-08-05 16:40:29,606 - src.audio_capture - INFO - Stopping audio capture...
+2025-08-05 16:40:30,512 - src.audio_capture - INFO - Audio capture stopped
+2025-08-05 16:40:31,063 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7886580027:AAHXCAzt88kHJtQmJ3SFuG38gJhrEORks3U/sendMessage "HTTP/1.1 200 OK"
+2025-08-05 16:40:31,067 - src.audio_capture - INFO - Audio capture cleaned up
+2025-08-05 16:40:31,068 - src.audio_monitor - INFO - Audio monitoring system stopped
+2025-08-05 16:40:36,081 - src.audio_monitor - INFO - STATS - Uptime: 0.0h, Processed: 929, Detections: 0, Rate: 0.0000
+2025-08-05 16:41:36,132 - src.audio_monitor - INFO - STATS - Uptime: 0.1h, Processed: 1398, Detections: 0, Rate: 0.0000
+2025-08-05 16:42:36,134 - src.audio_monitor - INFO - STATS - Uptime: 0.1h, Processed: 1865, Detections: 0, Rate: 0.0000
+2025-08-05 16:43:36,188 - src.audio_monitor - INFO - STATS - Uptime: 0.1h, Processed: 2334, Detections: 0, Rate: 0.0000
+2025-08-05 16:44:36,258 - src.audio_monitor - INFO - STATS - Uptime: 0.1h, Processed: 2802, Detections: 0, Rate: 0.0000
+2025-08-05 16:45:36,312 - src.audio_monitor - INFO - STATS - Uptime: 0.1h, Processed: 3270, Detections: 0, Rate: 0.0000
+2025-08-05 16:46:36,357 - src.audio_monitor - INFO - STATS - Uptime: 0.1h, Processed: 3739, Detections: 0, Rate: 0.0000
+2025-08-05 16:47:36,556 - src.audio_monitor - INFO - STATS - Uptime: 0.2h, Processed: 4208, Detections: 0, Rate: 0.0000
+2025-08-05 16:48:36,616 - src.audio_monitor - INFO - STATS - Uptime: 0.2h, Processed: 4676, Detections: 0, Rate: 0.0000
+2025-08-05 16:49:36,682 - src.audio_monitor - INFO - STATS - Uptime: 0.2h, Processed: 5144, Detections: 0, Rate: 0.0000
+2025-08-05 16:50:36,781 - src.audio_monitor - INFO - STATS - Uptime: 0.2h, Processed: 5613, Detections: 0, Rate: 0.0000
+2025-08-05 16:51:36,835 - src.audio_monitor - INFO - STATS - Uptime: 0.2h, Processed: 6081, Detections: 0, Rate: 0.0000
+2025-08-05 16:52:36,878 - src.audio_monitor - INFO - STATS - Uptime: 0.2h, Processed: 6549, Detections: 0, Rate: 0.0000
+2025-08-05 16:53:36,922 - src.audio_monitor - INFO - STATS - Uptime: 0.3h, Processed: 7018, Detections: 0, Rate: 0.0000
+2025-08-05 16:54:36,982 - src.audio_monitor - INFO - STATS - Uptime: 0.3h, Processed: 7486, Detections: 0, Rate: 0.0000
+2025-08-05 16:55:37,195 - src.audio_monitor - INFO - STATS - Uptime: 0.3h, Processed: 7955, Detections: 0, Rate: 0.0000
+2025-08-05 16:56:38,157 - src.audio_monitor - INFO - STATS - Uptime: 0.3h, Processed: 8431, Detections: 0, Rate: 0.0000
+2025-08-05 16:57:38,220 - src.audio_monitor - INFO - STATS - Uptime: 0.3h, Processed: 8899, Detections: 0, Rate: 0.0000
+2025-08-05 16:58:38,362 - src.audio_monitor - INFO - STATS - Uptime: 0.3h, Processed: 9368, Detections: 0, Rate: 0.0000
+2025-08-05 16:59:38,517 - src.audio_monitor - INFO - STATS - Uptime: 0.4h, Processed: 9837, Detections: 0, Rate: 0.0000
+2025-08-05 17:00:38,578 - src.audio_monitor - INFO - STATS - Uptime: 0.4h, Processed: 10305, Detections: 0, Rate: 0.0000
+2025-08-05 17:01:38,629 - src.audio_monitor - INFO - STATS - Uptime: 0.4h, Processed: 10773, Detections: 0, Rate: 0.0000
+2025-08-05 17:02:35,824 - src.audio_capture - WARNING - Audio callback status: 2
+2025-08-05 17:02:38,702 - src.audio_monitor - INFO - STATS - Uptime: 0.4h, Processed: 11219, Detections: 0, Rate: 0.0000
+2025-08-05 17:03:38,781 - src.audio_monitor - INFO - STATS - Uptime: 0.4h, Processed: 11219, Detections: 0, Rate: 0.0000
