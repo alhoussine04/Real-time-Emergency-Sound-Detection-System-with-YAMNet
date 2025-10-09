@@ -230,20 +230,6 @@ Use semicolons to separate different sound types. All sounds must match YAMNet's
 
 ## 🏗️ System Architecture
 
-### Core Components
-
-```
-┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│   AudioCapture  │───▶│  YAMNetClassifier │───▶│  SoundDetector  │
-│   (PyAudio)     │    │   (TF-Lite)      │    │   (Detection)   │
-└─────────────────┘    └──────────────────┘    └─────────────────┘
-         │                                               │
-         ▼                                               ▼
-┌─────────────────┐                            ┌─────────────────┐
-│  AudioMonitor   │◀───────────────────────────│TelegramNotifier │
-│ (Coordination)  │                            │ (Notifications) │
-└─────────────────┘                            └─────────────────┘
-```
 
 ### Component Details
 
