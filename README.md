@@ -24,7 +24,7 @@ A sophisticated real-time audio monitoring system that uses Google's YAMNet deep
 - **Storage**: ~50-75 MB for model and dependencies
 
 ### Platform Support
-- ✅ **Windows** (10/11) - Tested on Windows AMD64
+- ✅ **Windows** (10/11) - Tested on Windows Intel CPU
 - ✅ **Linux** (Ubuntu 18.04+, Debian 10+) - Tested on Raspberry Pi (aarch64)
 - ✅ **Raspberry Pi** (3B+, 4 recommended) - Optimized configurations available
 
